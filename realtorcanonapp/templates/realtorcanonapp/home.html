@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="zxx">
+{% load static %}
+   <!-- Mirrored from Realtor Canon.org/home by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Oct 2023 05:01:14 GMT -->
+   <!-- Added by HTTrack -->
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <!-- /Added by HTTrack -->
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="author" content="Realtor Canon Developers">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Realtor Canon, Astral Assets, Realtor Canon.org swap, Buy tokens, send and receive, Crypto, Receive and send, Astral Assets, Realtor Canon.org">
+      <meta name=”robots” content=”index, follow”>
+      <!-- Links of CSS files -->
+      <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/static/assets/css/flaticon.css">
+      <link rel="stylesheet" href="/static/assets/css/animate.min.css">
+      <link rel="stylesheet" href="/static/assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="/static/assets/css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="/static/assets/css/boxicons.min.css">
+      <link rel="stylesheet" href="/static/assets/css/meanmenu.min.css">
+      <link rel="stylesheet" href="/static/assets/css/nice-select.min.css">
+      <link rel="stylesheet" href="/static/assets/css/fancybox.min.css">
+      <link rel="stylesheet" href="/static/assets/css/odometer.min.css">
+      <link rel="stylesheet" href="/static/assets/css/magnific-popup.min.css">
+      <link rel="stylesheet" href="/static/assets/css/style.css">
+      <link rel="stylesheet" href="/static/assets/css/dark.css">
+      <link rel="stylesheet" href="/static/assets/css/responsive.css">
+      <title>Realtor Canon</title>
+      <link rel="icon" type="image/png" href="/static/lionhead.png">
+   </head>
+   </head>
+   <body class="data-science-color-css">
+      <!-- Start Navbar Area -->
+      <div class="navbar-area navbar-area-with-data-science">
+         <div class="dibiz-responsive-nav">
+            <div class="container-fluid">
+               <div class="dibiz-responsive-menu">
+                  <div class="logo">
+                     <a href="{% url 'home' %}">
+                     	 <h3><span style="color:gold !important; font-weight: bold;">R</span><span style="color:blue !important; font-weight: bold;">E</span><span style="color:green !important">A</span><span style="color:gold !important">L</span><span style="color:red !important">T</span><span style="color:blue !important">O</span><span style="color:gold !important">R</span><span style="color:blue !important">CA</span><span style="color:gold !important">NON</span></h3>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="dibiz-nav">
+            <div class="container-fluid">
+               <nav class="navbar navbar-expand-md navbar-light">
+                  <a class="navbar-brand" href="{% url 'home' %}">
+                     <h3><span style="color:gold !important; font-weight: bold;">R</span><span style="color:blue !important; font-weight: bold;">E</span><span style="color:green !important">A</span><span style="color:gold !important">L</span><span style="color:red !important">T</span><span style="color:blue !important">O</span><span style="color:gold !important">R</span><span style="color:blue !important">CA</span><span style="color:gold !important">NON</span></h3>
+                  </a>
+                  <div class="collapse navbar-collapse mean-menu">
+                     <ul class="navbar-nav">
+                        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+                        <li class="nav-item">
+                           <a href="#" class="nav-link">Company <i class='bx bx-chevron-down'></i></a>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item"><a href="{% url 'about' %}" class="nav-link">About Us</a></li>
+                              <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link">Contact Us</a></li>
+                              <li class="nav-item"><a href="{% url 'property' %}" class="nav-link">Properties</a></li>
+                           </ul>
+                        </li>
+                        <!--
+                        <li class="nav-item"><a href="tokens.html" class="nav-link">Token Sales</a></li>
+                        <li class="nav-item"><a href="roadmap.html" class="nav-link">Road Map</a></li>
+                        <li class="nav-item"><a href="market.html" class="nav-link">Market Data</a></li>
+                     -->
+                     </ul>
+                     <div class="others-option d-flex align-items-center">
+                     	<div class="option-item">
+                           <a href="{% url 'contact' %}" class="default-btn">List<i class='flaticon-chevron'></i></a>
+                        </div>
+                        
+                        <div class="option-item">
+                           <div class="switch-box">
+                              <label id="switch" class="switch">
+                              <input type="checkbox" onchange="toggleTheme()" id="slider">
+                              <span class="slider round"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+         </div>
+         <div class="others-option-for-responsive">
+            <div class="container">
+               <div class="dot-menu">
+                  <div class="inner">
+                     <div class="circle circle-one"></div>
+                     <div class="circle circle-two"></div>
+                     <div class="circle circle-three"></div>
+                  </div>
+               </div>
+               <div class="container">
+                  <div class="option-inner">
+                     <div class="others-option d-flex align-items-center">
+                        <div class="option-item">
+                           <a href="{% url 'contact' %}" class="default-btn">List<i class='flaticon-chevron'></i></a>
+                        </div>
+                        <div class="option-item">
+                           <div class="switch-box">
+                              <label id="switch" class="switch">
+                              <input type="checkbox" onchange="toggleTheme()" id="slider">
+                              <span class="slider round"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Navbar Area -->
+      <!-- Start Data Science Banner Area -->
+      <section class="ds-main-banner-area">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-lg-6 col-md-12">
+                  <div class="ds-banner-content">
+                     <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms">Find Your Dream Property</h1>
+                     <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">This is just a sample realtor canon website. Some details here aren't true and we might have to populate some texts with lorem ipsum texts </p>
+                     <ul class="btn-box wow animate__animated animate__fadeInLeft" data-wow-delay="300ms" data-wow-duration="1000ms">
+                        <li>
+                           <a href="{% url 'about' %}" class="default-btn">About Us <i class='flaticon-chevron'></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-12">
+                  <div class="ds-banner-image wow animate__animated animate__fadeInRight" data-wow-delay="300ms" data-wow-duration="1000ms">
+                     <img src="/static/assets/img/data-science/banner/main.png" alt="image">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="ds-banner-large-shape">
+            <img src="/static/assets/img/data-science/banner/large-shape.png" alt="image">
+         </div>
+         <div class="ds-banner-shape-1">
+            <img src="/static/assets/img/data-science/banner/shape1.png" alt="image">
+         </div>
+         <div class="ds-banner-shape-2">
+            <img src="/static/assets/img/data-science/banner/shape2.png" alt="image">
+         </div>
+         <div class="ds-banner-shape-3">
+            <img src="/static/assets/img/data-science/banner/shape3.png" alt="image">
+         </div>
+      </section>
+      <!-- End Data Science Banner Area -->
+      <!-- Start Services Area -->
+      <div class="ds-services-area pt-100 pb-75">
+         <div class="container">
+            <div class="ds-section-title">
+               <span>Why use YOUR REALESTATE BRAND</span>
+               <h2>Header To Answer Your The Question</h2>
+               <p>The reason why your real estate expertise should be used will be written here. For instance, "Choose [Your Real Estate Brand] for a seamless, stress-free real estate experience backed by years of expertise and a deep understanding of the market. With our unwavering dedication, personalized service, and proven track record of success, we turn your real estate dreams into reality. Trust in us to guide you through every step of the process, ensuring your satisfaction and peace of mind". We would futher break some of your offers down for your buyer leads and seller leads to see. This can include your unique value proposition.</p>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-3 col-md-6">
+                  <div class="ds-services-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/services/automated-engineering.svg" alt="image">
+                        </div>
+                        <h3>
+                           <a href="#">Premium Home Valuation</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="ds-services-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/services/database.svg" alt="image">
+                        </div>
+                        <h3>
+                           <a href="#">Staging Or Moving Services</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum..</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="ds-services-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/services/code.svg" alt="image">
+                        </div>
+                        <h3>
+                           <a href="#">Personalized Home Search</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="ds-services-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/services/report.svg" alt="image">
+                        </div>
+                        <h3>
+                           <a href="#">Early Access To Properties</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Services Area -->
+      <!-- Start About Area -->
+      <div class="ds-about-area pb-100">
+         <div class="container">
+            <div class="row justify-content-center align-items-center">
+               <div class="col-lg-5 col-md-12">
+                  <div class="ds-about-image">
+                     <img src="/static/assets/img/data-science/about/about.png" alt="image">
+                  </div>
+               </div>
+               <div class="col-lg-7 col-md-12">
+                  <div class="ds-about-content">
+                     <span class="sub">[Your Real Estate Brand ]</span>
+                     <h3>Enjoy your home ownership journey with [Your Real Estate Brand ]</span></h3>
+                     <p>some lorem ipsum text some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text </p>
+                     <div class="row justify-content-center">
+                        <div class="col-lg-6 col-sm-6">
+                           <div class="inner-card">
+                              <div class="icon">
+                                 <img src="/static/assets/img/data-science/about/icon1.svg" alt="image">
+                              </div>
+                              <h4>One <span> Quick Solution</span></h4>
+                           </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                           <div class="inner-card">
+                              <div class="icon">
+                                 <img src="/static/assets/img/data-science/about/icon2.svg" alt="image">
+                              </div>
+                              <h4>Client <span>Loyalty</span></h4>
+                           </div>
+                        </div>
+                     </div>
+                     <p> some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text </p>
+                     <p> some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text  some lorem ipsum text </p>
+                     <div class="about-btn">
+                        <a href="{% url 'property' %}" class="default-btn">View Listings <i class='flaticon-chevron'></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="ds-about-shape">
+            <img src="/static/assets/img/data-science/about/shape.png" alt="image">
+         </div>
+      </div>
+      <!-- End About Area -->
+      <!-- Start Funfacts Area -->
+      <div class="ds-funfacts-area pt-100 pb-75">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-3 col-sm-6">
+                  <div class="ds-funfacts-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/funfacts/data-mining.svg" alt="image">
+                        </div>
+                        <h3>
+                           <span class="odometer" data-count="332">00</span>
+                           <span class="plus">K+</span>
+                        </h3>
+                        <p>Transactions Completed</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="ds-funfacts-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/funfacts/algorithm.svg" alt="image">
+                        </div>
+                        <h3>
+                           <span class="odometer" data-count="580">00</span>
+                           <span class="plus">m+</span>
+                        </h3>
+                        <p>Value of Homes Sold</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="ds-funfacts-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/funfacts/multiplication.svg" alt="image">
+                        </div>
+                        <h3>
+                           <span class="odometer" data-count="30">00</span>
+                           <span class="plus">+</span>
+                        </h3>
+                        <p>States</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="ds-funfacts-card">
+                     <div class="content">
+                        <div class="icon">
+                           <img src="/static/assets/img/data-science/funfacts/artificial-intelligence.svg" alt="image">
+                        </div>
+                        <h3>
+                           <span class="odometer" data-count="37">00</span>
+                           <span class="plus">k+</span>
+                        </h3>
+                        <p>Number Of Home Sold</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Funfacts Area -->
+      <!-- Start Features Area -->
+      <div class="ds-features-area ptb-100">
+         <div class="container">
+            <div class="row align-items-center justify-content-center">
+               <div class="col-lg-7 col-md-12">
+                  <div class="ds-features-content">
+                     <span>Our Core features</span>
+                     <h3>Learn how [Your RealEstate Brand] can work for you </h3>
+                     <p>Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.</p>
+                     <div class="row justify-content-center">
+                        <div class="col-lg-6 col-sm-6">
+                           <ul class="list">
+                              <li><i class='bx bx-check-circle'></i> Personalized Guidance
+                              </li>
+                              <li><i class='bx bx-check-circle'></i> Leading - Edge Marketing 
+                              </li>
+                              <li><i class='bx bx-check-circle'></i> Inovative Technology</li>
+                           </ul>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                           <ul class="list">
+                              <li><i class='bx bx-check-circle'></i> Low Fees, No Gas Costs</li>
+                              <li><i class='bx bx-check-circle'></i> Industry Best Service</li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="features-btn">
+                        <a href="{% url 'property' %}" class="default-btn">Exclusive Listings <i class='flaticon-chevron'></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-12">
+                  <div class="ds-features-image">
+                     <img src="/static/assets/img/data-science/features.png" alt="image">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="ds-features-shape">
+            <img src="/static/assets/img/data-science/dot-shape.png" alt="image">
+         </div>
+      </div>
+      <!-- End Features Area -->
+      <!-- Start Process Area -->
+
+
+      <!-- End Process Area -->
+      <!-- Start Solutions Area -->
+
+
+
+      <!-- End Solutions Area -->
+      <!-- Start Feedback Area -->
+      <div class="ds-feedback-area pt-100">
+         <div class="container">
+            <div class="ds-section-title text-start">
+               <h2>What our clients have to say</h2>
+               <p>Check Our Users Feedbacks On Our Services</p>
+            </div>
+            <div class="ds-feedback-slides owl-carousel owl-theme">
+               <div class="ds-feedback-card">
+                  <div class="info">
+                     <img src="/static/images/greenwich.png" alt="image">
+                     <div class="title">
+                        <h3>Realtor Canon User</h3>
+                        <span>From USA</span>
+                     </div>
+                  </div>
+                  <ul class="rating">
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                  </ul>
+                  <p>“Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.”</p>
+                  <br/>
+                  <p>Date: 19 Aug 2023</p>
+               </div>
+               <div class="ds-feedback-card">
+                  <div class="info">
+                     <img src="/static/images/greenwich.png" alt="image">
+                     <div class="title">
+                        <h3>Realtor Canon User</h3>
+                        <span>From Florida, USA</span>
+                     </div>
+                  </div>
+                  <ul class="rating">
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                  </ul>
+                  <p>“ Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.”</p>
+                  <br/>
+                  <p>Date: 12 Mar 2023</p>
+               </div>
+               <div class="ds-feedback-card">
+                  <div class="info">
+                     <img src="/static/images/greenwich.png" alt="image">
+                     <div class="title">
+                        <h3>Realtor Canon User</h3>
+                        <span>From USA</span>
+                     </div>
+                  </div>
+                  <ul class="rating">
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                  </ul>
+                  <p>“Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.”</p>
+                  <br/>
+                  <p>Date: 5 Jun 2023</p>
+               </div>
+               <div class="ds-feedback-card">
+                  <div class="info">
+                     <img src="/static/images/greenwich.png" alt="image">
+                     <div class="title">
+                        <h3>Realtor Canon User</h3>
+                        <span>From UK</span>
+                     </div>
+                  </div>
+                  <ul class="rating">
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                  </ul>
+                  <p>“Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.”</p>
+                  <br/>
+                  <p>Date: 21 Feb 2023</p>
+               </div>
+               <div class="ds-feedback-card">
+                  <div class="info">
+                     <img src="/static/images/greenwich.png" alt="image">
+                     <div class="title">
+                        <h3>Realtor Canon User</h3>
+                        <span>From USA</span>
+                     </div>
+                  </div>
+                  <ul class="rating">
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                  </ul>
+                  <p>“ Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum..”</p>
+                  <br/>
+                  <p>Date: 18 Jul 2023</p>
+               </div>
+               <div class="ds-feedback-card">
+                  <div class="info">
+                     <img src="/static/images/greenwich.png" alt="image">
+                     <div class="title">
+                        <h3>Realtor Canon User</h3>
+                        <span>From USA</span>
+                     </div>
+                  </div>
+                  <ul class="rating">
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                     <li><i class='bx bxs-star'></i></li>
+                  </ul>
+                  <p>“Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum.”</p>
+                  <br/>
+                  <p>Date: 9 Jan 2023</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Feedback Area -->
+      <!-- Start Blog Area -->
+      <div class="ds-blog-area pt-100 pb-75">
+         <div class="container">
+            <div class="ds-section-title">
+               <span>Our Blog</span>
+               <h2>Read our latest posts</h2>
+               <p>Read the latest news and important updates from Realtor Canon.</p>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-4 col-md-6">
+                  <div class="ds-blog-card">
+                     <div class="blog-image">
+                        <a href=""><img src="/static/blogdata/d3125cd3d43592ba1d6341895bef21bc.jpg" alt="image"></a>
+                        <div class="date">
+                           <span>21st September 2023</span>
+                        </div>
+                     </div>
+                     <div class="blog-content">
+                        <ul class="meta">
+                           <li><i class='bx bx-user'></i> By <a href="#">admin</a></li>
+                           <li>/</li>
+                        </ul>
+                        <h3>
+                           <a href="">Why the world needs Real Estate Agents</a>
+                        </h3>
+                        <a href="" class="blog-btn">Read more</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="ds-blog-card">
+                     <div class="blog-image">
+                        <a href=""><img src="/static/blogdata/16b54afe039a42cb70112dc12b144941.jpg" alt="image"></a>
+                        <div class="date">
+                           <span>18th September 2023</span>
+                        </div>
+                     </div>
+                     <div class="blog-content">
+                        <ul class="meta">
+                           <li><i class='bx bx-user'></i> By <a href="#">admin</a></li>
+                           <li>/</li>
+                        </ul>
+                        <h3>
+                           <a href="">Why we are the best?</a>
+                        </h3>
+                        <a href="" class="blog-btn">Read more</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Blog Area -->
+      <!-- Start Subscribe Area -->
+      <section class="subscribe-area ptb-100">
+         <div class="container">
+            <div class="subscribe-content">
+               <span class="sub-title">Latest Market News & Updates</span>
+               <h2>Subscribe To Our Newsletter</h2>
+               <p>Subscribe to Realtor Canon Newsletters — the best way to stay informed about our offers and what's trending in the RealEstate market.</p>
+               <form action="" class="newsletter-form" data-bs-toggle="validator" method="post" aAAept-charset="utf-8">
+                  <input type="text" class="input-newsletter" placeholder="Enter your email address" name="EMAIL" required autocomplete="off" required>
+                  <button type="submit" class="default-btn">Subscribe Now</button>
+                  <div id="validator-newsletter" class="form-result"></div>
+               </form>
+            </div>
+         </div>
+         <div class="shape9"><img src="/static/assets/img/shape/shape9.png" alt="image"></div>
+         <div class="shape10"><img src="/static/assets/img/shape/shape10.png" alt="image"></div>
+         <div class="shape11"><img src="/static/assets/img/shape/shape11.png" alt="image"></div>
+         <div class="shape12"><img src="/static/assets/img/shape/shape12.png" alt="image"></div>
+      </section>
+      <!-- End Subscribe Area -->
+      <!-- Start Footer Area -->
+      <footer class="footer-area ds-footer-area">
+         <div class="container">
+            <div class="row">
+               <div class = "col-lg-6" style = "color:white;">
+                  [Your RealEstate Brand] - Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum..
+               </div>
+               <div class = "col-lg-6" style = "color:white;">
+                  Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum..
+                  <br/><br/>
+               </div>
+               <br/>
+               <hr style = "color:white;"/>
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="single-footer-widget">
+                     <a href="{% url 'home' %}" class="logo">
+                        <h3><span style="color:gold !important; font-weight: bold;">R</span><span style="color:blue !important; font-weight: bold;">E</span><span style="color:green !important">A</span><span style="color:gold !important">L</span><span style="color:red !important">T</span><span style="color:blue !important">O</span><span style="color:gold !important">R</span><span style="color:blue !important">CA</span><span style="color:gold !important">NON</span></h3>
+                     </a>
+                     <p>[Your RealEstate Brand] Lorem ipsum dolor sit amet. Ut nihil modi nam aperiam necessitatibus eos nulla molestias. Et maiores animi aut impedit beatae aut consequatur libero sed provident dolores in unde recusandae non totam voluptas et nihil modi. Vel laboriosam architecto aut fugiat esse 33 reprehenderit praesentium et aperiam dolores est reiciendis consequatur et minima maiores ut illo laborum... </p>
+                     <ul class="social-link">
+                        <li><a href="" class="d-block" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="" class="d-block" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                        <li><a href="" class="d-block" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                        <li><a href="" class="d-block" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                        <li><a href="" class="d-block" target="_blank"><i class="bx bxl-youtube"></i></a></li>
+                        <li><a href="https://wa.me/" class="d-block" target="_blank"><i class="bx bxl-whatsapp"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-6 col-sm-6">
+                  <div class="single-footer-widget ps-5">
+                     <h3>Quick Links</h3>
+                     <ul class="footer-links-list">
+                        <li><a href="{% url 'home' %">Home</a></li>
+                        <li><a href="{% url 'contact' %}">Connect</a></li>
+                        <li><a href="{% url 'property' %}">Find a Property</a></li>
+                        <li><a href="">Blog</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-6 col-sm-6">
+                  <div class="single-footer-widget ps-5">
+                     <h3>Resources</h3>
+                     <ul class="footer-links-list">
+                        <li><a href="">Plans</a></li>
+                        <li><a href="">Jobs & Careers</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-6 col-sm-6">
+                  <div class="single-footer-widget ps-5">
+                     <h3>Company</h3>
+                     <ul class="footer-links-list">
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Affiliate Program</a></li>
+                        <li><a href="">Our Brochure is being prepared for 2024</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="single-footer-widget ps-5">
+                     <h3>Contact</h3>
+                     <ul class="footer-contact-info">
+                        <!-- <li>
+                           <i class="bx bx-map"></i>
+                           <span>Location:</span>
+                           2976 sunrise road las vegas
+                           </li>-->
+                        <li>
+                           <i class="bx bx-envelope"></i>
+                           <span>Email:</span>
+                           <a href="mailto:"><span class="__cf_email__" data-cfemail="b3dbd6dfdfdcf3d7dad1dac99dd0dcde">support@[Your BRAND NAME].com</span></a>
+                        </li>
+                        <li>
+                           <i class="bx bxs-phone"></i>
+                           <span>Phone: +000 00000 00000</span>
+                           <a href="tell:+">+000 00000 00</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom-area">
+            <p>All rights reserved. [Your Brand Name] </p>
+         </div>
+      </footer>
+      <!-- End Footer Area -->
+      <div class="go-top"><i class="bx bx-up-arrow-alt"></i></div>
+      <a class= "open-button">
+         <div id="google_translate_element"></div>
+         <script data-cfasync="false" src="/static/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
+         <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, "google_translate_element");
+                    }
+         </script>
+         <script type="text/javascript" src="/static/translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
+      </a>
+      <style>
+         div.static {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         z-index: 2000;
+         }
+         .open-button {
+         padding: 13px 17px;
+         border-radius: 30px;
+         cursor: pointer;
+         opacity: 0.8;
+         position: fixed;
+         bottom: 80px;
+         margin-right: 70px;
+         width: 200px;
+         z-index: 1500;
+         background-color:#064E3B;
+         }
+      </style>
+      <!-- Links of JS files -->
+      <script src="/static/assets/js/jquery.min.js"></script>
+      <script src="/static/assets/js/bootstrap.bundle.min.js"></script>
+      <script src="/static/assets/js/appear.min.js"></script>
+      <script src="/static/assets/js/odometer.min.js"></script>
+      <script src="/static/assets/js/magnific-popup.min.js"></script>
+      <script src="/static/assets/js/fancybox.min.js"></script>
+      <script src="/static/assets/js/owl.carousel.min.js"></script>
+      <script src="/static/assets/js/meanmenu.min.js"></script>
+      <script src="/static/assets/js/nice-select.min.js"></script>
+      <script src="/static/assets/js/sticky-sidebar.min.js"></script>
+      <script src="/static/assets/js/wow.min.js"></script>
+      <script src="/static/assets/js/form-validator.min.js"></script>
+      <script src="/static/assets/js/contact-form-script.js"></script>
+      <script src="/static/assets/js/ajaxchimp.min.js"></script>
+      <script src="/static/assets/js/main.js"></script>
+      <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+   </body>
+   <!-- Mirrored from Realtor Canon.org/home by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Oct 2023 05:01:14 GMT -->
+</html>
